@@ -1,5 +1,15 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<Art>
+
+<div id="all-artworks">
+    @foreach (var artwork in Model)
+    {
+        <div id="artwork">
+            <h4>@artwork.Title</h4>
+            <p>@artwork.Year.ToString()</p>
+            <p>@artwork.Collection</p>
+            <p>@artwork.Medium</p>
+            <p>@artwork.Height.ToString() x @artwork.Width cm</p>
+            <p>@artwork.Price.ToString("c")</p>
+        </div>
+    }
+</div>

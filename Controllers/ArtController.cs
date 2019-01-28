@@ -1,19 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace DdArtSupply.Controllers
+﻿namespace DdArtSupply.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using DdArtSupply.Repositories;
+    using Microsoft.AspNetCore.Mvc;
+
     public class ArtController : Controller
     {
-        // GET: /<controller>/
-        public IActionResult Index()
+        private readonly IArtRepository artRepository;
+
+        public ArtController(IArtRepository artRepository)
         {
-            return View();
+            this.artRepository = artRepository;
+
+        }
+
+        // GET: /<controller>/
+        public ViewResult List()
+        {
+            return View(artRepository.Artworks);
         }
     }
 }

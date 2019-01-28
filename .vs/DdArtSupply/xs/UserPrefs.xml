@@ -1,4 +1,25 @@
 ﻿<Properties StartupConfiguration="{228BAA8A-C1B3-4CE3-B392-501A2259BF2E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Startup.cs" Line="35" Column="68" />
+      <File FileName="Models/Art.cs" Line="31" Column="1" />
+      <File FileName="Repositories/IArtRepository.cs" Line="16" Column="1" />
+      <File FileName="Repositories/ArtRepository.cs" Line="23" Column="46" />
+      <File FileName="Controllers/ArtController.cs" Line="24" Column="10" />
+      <File FileName="Views/Art/List.cshtml" Line="15" Column="7" />
+      <File FileName="Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="package.json" Line="8" Column="26" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DdArtSupply FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DdArtSupply PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
