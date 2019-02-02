@@ -1,15 +1,22 @@
 ﻿@model List<Art>
 
 <div id="all-artworks">
-    @foreach (var artwork in Model)
-    {
-        <div id="artwork">
-            <h4>@artwork.Title</h4>
-            <p>@artwork.Year.ToString()</p>
-            <p>@artwork.Collection</p>
-            <p>@artwork.Medium</p>
-            <p>@artwork.Height.ToString() x @artwork.Width cm</p>
-            <p>@artwork.Price.ToString("c")</p>
-        </div>
-    }
+    <div class="card-deck d-flex justify-content-center">
+        @foreach (var artwork in Model)
+        {
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <img class="card-img-top art-image" src="@artwork.ImageSource" alt="Artwork Image.">
+                <div class="card-body">
+                    <h5 class="card-title art-title">@artwork.Title</h5>
+                    <p class="art-year">@artwork.Year</p>
+                    <p class="art-collection">@artwork.Collection</p>
+                    <p class="art-medium">@artwork.Medium</p>
+                    <p class="art-dimensions">@artwork.Height x @artwork.Width cm</p>
+                    <p class="art-price">@artwork.Price.ToString("c")</p>
+                    @*<a href="#" class="btn btn-primary">Go somewhere</a>*@
+                </div>
+            </div>
+        }
+    </div>
+</div>
 </div>

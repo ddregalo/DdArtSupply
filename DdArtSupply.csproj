@@ -14,5 +14,6 @@
   <ItemGroup>
     <Folder Include="Repositories\" />
     <Folder Include="Views\Art\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 </Project>

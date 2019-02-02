@@ -17,7 +17,7 @@
 
         }
 
-        // GET: /<controller>/
+        // GET: /<controller>/list
         public ViewResult List()
         {
             return View(artRepository.Artworks);

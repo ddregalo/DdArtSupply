@@ -5,6 +5,8 @@ namespace DdArtSupply.Models
     {
         public int Id { get; set; }
 
+        public string ImageSource { get; set; }
+
         public string Title { get; set; }
 
         public string Medium { get; set; }
@@ -23,6 +25,7 @@ namespace DdArtSupply.Models
         {
             Oceans,
             Atmosphere,
+            Horizons,
             Abstracts,
             UrbanArt
         }
