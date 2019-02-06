@@ -5,53 +5,47 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.all-artworks {
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-}
-
 .art-image {}
 
-.art-title {
-    letter-spacing: 4px;
-    font-weight:500;
-    font-size: 25px;
-    text-transform: uppercase;
+.art-collection {
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.art-dimensions {
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 4px;
+}
+.art-medium {
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.art-price {
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 4px;
 }
 
 .art-year {
     letter-spacing: 3px;
     font-weight: 200;
     font-size: 14px;
+    padding: 4px;
 }
 
-.art-collection {
-    letter-spacing: 3px;
-    font-weight: 200;
-    font-size: 20px;
-}
-
-.art-medium {
-    letter-spacing: 3px;
-    font-weight: 200;
-    font-size: 20px;
-}
-
-.art-dimensions {
-    letter-spacing: 3px;
-    font-weight: 200;
-    font-size: 20px;
-}
-
-.art-price {
-    letter-spacing: 3px;
-    font-weight: 200;
-    font-size: 20px;
-}
-
-.slide-image {
-    width: 100%;
+.art-title {
+    letter-spacing: 4px;
+    font-weight:500;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .carousel-holder {
@@ -61,4 +55,12 @@
 .carousel-control,
 .item {
     border-radius: 4px;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+#all-artworks {
+    padding: 30px;
 }
