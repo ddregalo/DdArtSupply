@@ -17,9 +17,16 @@ namespace DdArtSupply
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+
+        private IConfigurationRoot configurationRoot;
+
+        public Startup(IConfiguration configuration, IHostingEnvironment hostingEnvironment)
         {
             Configuration = configuration;
+            configurationRoot = new ConfigurationBuilder()
+                .SetBasePath(hostingEnvironment.ContentRootPath)
+                .AddJsonFile("appsettings.json")
+                .Build();
         }
 
         public IConfiguration Configuration { get; }
