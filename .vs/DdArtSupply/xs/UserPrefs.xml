@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{228BAA8A-C1B3-4CE3-B392-501A2259BF2E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Repositories/IArtRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
-      <File FileName="Models/DbContext/ArtDbContext.cs" Line="14" Column="2" />
-      <File FileName="Startup.cs" Line="29" Column="26" />
-      <File FileName="Repositories/ArtRepository.cs" Line="10" Column="43" />
       <File FileName="Models/Art.cs" Line="28" Column="22" />
-      <File FileName="Repositories/IArtRepository.cs" Line="7" Column="22" />
+      <File FileName="DbInitializer/ArtDbInitializer.cs" Line="30" Column="40" />
+      <File FileName="Models/DbContext/ArtDbContext.cs" Line="14" Column="2" />
+      <File FileName="Startup.cs" Line="45" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
